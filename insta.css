@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    /*Width = Largura*/
+    min-height: 100vh;
+    /*Height = Altura*/
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;    
+}
+
+.instagram-wrapper {
+    display: flex;
+    /*transforma tudo o que está dentro em um container, colocando-os alinhados (<> Coluna), ocupando o maior espaço da linha*/
+    align-items: center;
+    /*Alinhamento no eixo Y*/
+    justify-content: space-between;
+    /*Alinhamento no eixo X*/
+}
+
+.instagram-font {
+    
+}
+.Instagram-phone{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.Instagram-phone img {
+    max-width: 300px;
+    align-items: center
+}
+
+.profile-photo img {
+    max-height: 300px;
+    border-radius: 100%;
+}
+
+@import {
+    url('http://fonts.cdnfonts.com/css/billabong');
+}
+
+.insta-font{
+    font-family: 'Billabong', sans-serif;
+    align-items: flex-start;
+    align-content: center;
+    font-size: 70px;
+}
